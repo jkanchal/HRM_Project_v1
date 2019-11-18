@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 134.904 s <<< FAILURE! - in TestSuite
+TC_002_Login_DDT(com.HRM.TestCases.TC_Login_DDT_002)  Time elapsed: 7.234 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.HRM.TestCases.TC_Login_DDT_002.TC_002_Login_DDT(TC_Login_DDT_002.java:66)
+
+TC_002_Login_DDT(com.HRM.TestCases.TC_Login_DDT_002)  Time elapsed: 3.797 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.HRM.TestCases.TC_Login_DDT_002.TC_002_Login_DDT(TC_Login_DDT_002.java:66)
+
+TC_003_AddNewEmployee(com.HRM.TestCases.TC_Add_Employee_003)  Time elapsed: 16.512 s  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.HRM.TestCases.TC_Add_Employee_003.TC_003_AddNewEmployee(TC_Add_Employee_003.java:37)
+

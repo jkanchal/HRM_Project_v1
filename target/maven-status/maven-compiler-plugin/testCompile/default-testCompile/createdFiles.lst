@@ -1,0 +1,9 @@
+com\HRM\TestCases\TC_Add_Employee_003.class
+com\HRM\TestCases\TC_Login_Test_001.class
+com\HRM\TestCases\TC_Login_DDT_002.class
+com\HRM\pageObjects\Add_New_Employee.class
+com\HRM\pageObjects\Login_Page.class
+com\HRM\Utilities\XLUtils.class
+com\HRM\Utilities\Reporting.class
+com\HRM\Utilities\ReadConfig.class
+com\HRM\TestCases\BaseClass.class

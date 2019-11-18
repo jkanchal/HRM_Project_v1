@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-HRMV1">
+              <span class="suite-name border-failed">HRMV1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HRMV1">
+                    <span>C:\Users\Jay\eclipse-workspace\HRM\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-HRMV1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-HRMV1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-HRMV1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-HRMV1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HRMV1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-HRMV1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-HRMV1" class="hide-methods failed suite-HRMV1"> (hide)</a> <!-- hide-methods failed suite-HRMV1 -->
+                      <a href="#" panel-name="suite-HRMV1" class="show-methods failed suite-HRMV1"> (show)</a> <!-- show-methods failed suite-HRMV1 -->
+                    </span>
+                    <div class="method-list-content failed suite-HRMV1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Login_DDT_002" hash-for-method="TC_002_Login_DDT(Admin, Admin)">TC_002_Login_DDT(Admin, Admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Login_DDT_002" hash-for-method="TC_002_Login_DDT(Admin, admin)">TC_002_Login_DDT(Admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Add_Employee_003" hash-for-method="TC_003_AddNewEmployee">TC_003_AddNewEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-HRMV1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HRMV1" class="hide-methods passed suite-HRMV1"> (hide)</a> <!-- hide-methods passed suite-HRMV1 -->
+                      <a href="#" panel-name="suite-HRMV1" class="show-methods passed suite-HRMV1"> (show)</a> <!-- show-methods passed suite-HRMV1 -->
+                    </span>
+                    <div class="method-list-content passed suite-HRMV1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Login_Test_001" hash-for-method="TC_001_Login_Test">TC_001_Login_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Login_DDT_002" hash-for-method="TC_002_Login_DDT(Admin, admin123)">TC_002_Login_DDT(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Login_DDT_002" hash-for-method="TC_002_Login_DDT(Admin, admin123)">TC_002_Login_DDT(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HRMV1" title="com.HRM.TestCases.TC_Login_DDT_002" hash-for-method="TC_002_Login_DDT(Admin, admin123)">TC_002_Login_DDT(Admin, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HRMV1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HRMV1" class="panel HRMV1">
+          <div class="suite-HRMV1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.HRM.TestCases.TC_Login_DDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_Login_DDT(Admin, Admin)">
+                  </a> <!-- TC_002_Login_DDT(Admin, Admin) -->
+                  <span class="method-name">TC_002_Login_DDT</span>
+                  <span class="parameters">(Admin, Admin)</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.HRM.TestCases.TC_Login_DDT_002.TC_002_Login_DDT(TC_Login_DDT_002.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_Login_DDT(Admin, admin)">
+                  </a> <!-- TC_002_Login_DDT(Admin, admin) -->
+                  <span class="method-name">TC_002_Login_DDT</span>
+                  <span class="parameters">(Admin, admin)</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.HRM.TestCases.TC_Login_DDT_002.TC_002_Login_DDT(TC_Login_DDT_002.java:66)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HRMV1-class-failed -->
+          <div class="suite-HRMV1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.HRM.TestCases.TC_Add_Employee_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_003_AddNewEmployee">
+                  </a> <!-- TC_003_AddNewEmployee -->
+                  <span class="method-name">TC_003_AddNewEmployee</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at com.HRM.TestCases.TC_Add_Employee_003.TC_003_AddNewEmployee(TC_Add_Employee_003.java:37)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HRMV1-class-failed -->
+          <div class="suite-HRMV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HRM.TestCases.TC_Login_DDT_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_Login_DDT(Admin, admin123)">
+                  </a> <!-- TC_002_Login_DDT(Admin, admin123) -->
+                  <span class="method-name">TC_002_Login_DDT</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_Login_DDT(Admin, admin123)">
+                  </a> <!-- TC_002_Login_DDT(Admin, admin123) -->
+                  <span class="method-name">TC_002_Login_DDT</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_002_Login_DDT(Admin, admin123)">
+                  </a> <!-- TC_002_Login_DDT(Admin, admin123) -->
+                  <span class="method-name">TC_002_Login_DDT</span>
+                  <span class="parameters">(Admin, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HRMV1-class-passed -->
+          <div class="suite-HRMV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.HRM.TestCases.TC_Login_Test_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_001_Login_Test">
+                  </a> <!-- TC_001_Login_Test -->
+                  <span class="method-name">TC_001_Login_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HRMV1-class-passed -->
+        </div> <!-- panel HRMV1 -->
+        <div panel-name="test-xml-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Jay\eclipse-workspace\HRM\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;HRMV1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.HRM.Utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;HRMTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.HRM.TestCases.TC_Login_Test_001&quot;/&gt;
+      &lt;class name=&quot;com.HRM.TestCases.TC_Login_DDT_002&quot;/&gt;
+      &lt;class name=&quot;com.HRM.TestCases.TC_Add_Employee_003&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HRMTest --&gt;
+&lt;/suite&gt; &lt;!-- HRMV1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HRMV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HRMTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HRMV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HRMV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HRMV1');
+function tableData_HRMV1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_003_AddNewEmployee')
+data.setCell(0, 2, 'com.HRM.TestCases.TC_Add_Employee_003')
+data.setCell(0, 3, 16512);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_002_Login_DDT')
+data.setCell(1, 2, 'com.HRM.TestCases.TC_Login_DDT_002')
+data.setCell(1, 3, 14319);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_002_Login_DDT')
+data.setCell(2, 2, 'com.HRM.TestCases.TC_Login_DDT_002')
+data.setCell(2, 3, 13035);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_002_Login_DDT')
+data.setCell(3, 2, 'com.HRM.TestCases.TC_Login_DDT_002')
+data.setCell(3, 3, 8873);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_001_Login_Test')
+data.setCell(4, 2, 'com.HRM.TestCases.TC_Login_Test_001')
+data.setCell(4, 3, 7794);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_002_Login_DDT')
+data.setCell(5, 2, 'com.HRM.TestCases.TC_Login_DDT_002')
+data.setCell(5, 3, 7182);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_002_Login_DDT')
+data.setCell(6, 2, 'com.HRM.TestCases.TC_Login_DDT_002')
+data.setCell(6, 3, 3796);
+window.suiteTableData['HRMV1']= { tableData: data, tableDiv: 'times-div-HRMV1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-HRMV1">
+              </div> <!-- times-div-HRMV1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HRMV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HRMV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HRM.TestCases.TC_Login_Test_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_001_Login_Test</span>
+                <span class="method-start">17961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">25873 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HRM.TestCases.TC_Login_DDT_002</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">28658 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC_002_Login_DDT(Admin, admin123)</span>
+                <span class="method-start">49197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_002_Login_DDT(Admin, admin)</span>
+                <span class="method-start">63521 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_002_Login_DDT(Admin, admin123)</span>
+                <span class="method-start">70762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC_002_Login_DDT(Admin, admin123)</span>
+                <span class="method-start">83800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_002_Login_DDT(Admin, Admin)</span>
+                <span class="method-start">92677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">96488 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.HRM.TestCases.TC_Add_Employee_003</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">98138 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_003_AddNewEmployee</span>
+                <span class="method-start">108935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">125477 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

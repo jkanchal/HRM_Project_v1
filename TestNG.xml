@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HRMV1">
+<listeners>
+	<listener class-name="com.HRM.Utilities.Reporting"/>
+</listeners>
+	<test name="HRMTest">
+		<parameter name="browser" value="chrome"/>
+			<classes>
+				<class name="com.HRM.TestCases.TC_Login_Test_001"/>
+				<class name="com.HRM.TestCases.TC_Login_DDT_002"/>
+				<class name="com.HRM.TestCases.TC_Add_Employee_003"/>
+			</classes>
+	
+	</test>
+</suite>
